@@ -87,10 +87,10 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'forgb$default',
-        'USER': 'forgb',
+        'NAME': 'gbhw$default',
+        'USER': 'gbhw',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'HOST': 'forgb.mysql.pythonanywhere-services.com',
+        'HOST': 'gbhw.mysql.pythonanywhere-services.com',
         'OPTIONS': {
             'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
             'charset': 'utf8mb4',
