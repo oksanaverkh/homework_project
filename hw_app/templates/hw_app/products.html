@@ -1,0 +1,15 @@
+{% extends 'hw_app/base.html' %}
+
+{% block title %}Products in order number{{ order.pk }}{% endblock %}
+
+{% block content %}
+<h2>Products in order number {{ order.pk }}</h2>
+<table>
+    {% for product in products %}
+    <tr>
+        <td>{{ product }}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+{% endblock %}
